@@ -37,7 +37,7 @@ cmd = "pavucontrol"
 
 [[block]]
 block = "battery"
-format = "{percentage}% {time}"
+format = " $icon $percentage {$time |}"
 device = "DisplayDevice"
 driver = "upower"
 
