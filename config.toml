@@ -44,7 +44,7 @@ driver = "upower"
 [[block]]
 block = "custom"
 command = "sed 's/  //' <(curl 'https://wttr.in/?format=1' -s)"
-interval = 600
+interval = 1800
 
 [[block]]
 block = "time"
